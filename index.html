@@ -2,61 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yubina Acharya Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Rajdhani', sans-serif;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about me</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="hero">
-    <h1>Your Name</h1>
-    <p>Aspiring Web Developer | Creative Thinker</p>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>welcome to <span class="neon">Yubina Acharya's</span> space</h1>
+      <p>scroll down to learn more about me!</p>
+    </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm a student learning web development. I love building things with code and sharing my work. This site showcases the projects I’ll complete in this course and beyond.</p>
+  <section id="about" class="section">
+    <h2>about me</h2>
+    <p>
+      Hello! I'm <strong>Yubina Acharya</strong>, a Computer Science student at the University of North Texas.
+      I'm passionate about building innovative and accessible web experiences. My interests lie in software development,
+      artificial intelligence, and the fast-paced world of emerging technologies. I've gained hands-on experience with
+      <strong>C++</strong>, <strong>Python</strong>, and <strong>Microsoft Office</strong> through coursework and projects.
+      I'm currently advancing my knowledge in <strong>machine learning</strong> and <strong>data-driven development</strong>
+      through AI certifications. I'm always eager to grow, collaborate, and build meaningful digital solutions.
+    </p>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li><i class="fab fa-html5"></i> HTML</li>
-      <li><i class="fab fa-css3-alt"></i> CSS</li>
-      <li><i class="fas fa-code"></i> JavaScript (coming soon!)</li>
-    </ul>
+  <section id="skills" class="section">
+    <h2>skills</h2>
+    <div class="icons">
+      <i class="fab fa-html5"></i> HTML
+      <i class="fab fa-css3-alt"></i> CSS
+      <i class="fab fa-js"></i> JavaScript
+      <i class="fas fa-brain"></i> Artificial Intelligence
+      <i class="fas fa-code"></i> C++
+      <i class="fab fa-python"></i> Python
+      <i class="fas fa-database"></i> Data-Driven Dev
+      <i class="fas fa-laptop-code"></i> Software Dev
+      <i class="fas fa-robot"></i> Machine Learning
+      <i class="fas fa-tools"></i> Microsoft Office
+    </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Coming soon! Check back later to see my portfolio projects.</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+  <section id="contact" class="section">
+    <h2>contact</h2>
+    <p>Feel free to reach out to me at <a href="mailto:yubina.acharya@gmail.com">yubina.acharya@gmail.com</a></p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/yubina-acharya-93a986251/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Your Name</p>
+    <p>&copy; 2025 Yubina Acharya</p>
   </footer>
-
 </body>
 </html>
