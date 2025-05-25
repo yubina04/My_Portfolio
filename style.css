@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  background: #0f0f0f;
+  color: #e0e0e0;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #00fff7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff00ff;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f0f0f 60%, #1a0033);
+  color: white;
+  padding: 6rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero .neon {
+  color: #00fff7;
+  text-shadow: 0 0 5px #00fff7, 0 0 20px #00fff7;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.icons i {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  background: #1a1a1a;
+  border-radius: 6px;
+  color: #00fff7;
+  transition: 0.3s;
+}
+
+.icons i:hover {
+  background: #222;
+  color: #ff00ff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+
+.social-icons a {
+  color: #00fff7;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff00ff;
+}
+
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  color: #888;
+}
